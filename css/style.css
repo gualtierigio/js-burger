@@ -24,7 +24,6 @@
     height: 40px;
     background-color: orangered;
     border-radius: 50%;
-    margin-right: 10px;
 }
 
 .inline-block{
@@ -33,4 +32,23 @@
 
 .red-color{
     color: red;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.calcolate-btn{
+    border-radius: 4px;
+    background-color: rgb(255, 185, 56);
+    padding: 8px 15px;
+}
+
+.button-wrap{
+    text-align: center;
+}
+
+#yourPrice{
+    font-size: 2em;
+    text-align: right;
 }
