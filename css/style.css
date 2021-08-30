@@ -18,7 +18,7 @@
 .bg-price{
     height: 100px;
     background-color: orangered;
-    
+
 }
 
 .main-wrap{
@@ -44,7 +44,7 @@
     margin-right: 10px;
 }
 
-.calcolate-btn{
+.calculate-btn{
     border-radius: 4px;
     background-color: rgb(255, 185, 56);
     padding: 8px 15px;

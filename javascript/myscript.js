@@ -1,14 +1,18 @@
-let burgerName = document.getElementById("burgerName").innerHTML
+let burgerName = document.getElementById("burgerName");
+
+burgerName.innerHTML = prompt()
 
 const baseBurger = 10;
 
-let ingredientPrice = 5
+let ingredientPrice = 5;
 
 let ingredients = document.getElementsByClassName("ingredient");
 
 let burgerPlus = 0;
 
-document.getElementById("calcolate").addEventListener("click", function(){
+const calculateBtn = document.getElementById("calculate");
+
+calculateBtn.addEventListener("click", function(){
 
     for (let i = 0; i < ingredients.length; i++){
 
@@ -22,4 +26,4 @@ document.getElementById("calcolate").addEventListener("click", function(){
 });
 
 
-console.log(burgerPlus)
+console.log(burgerPlus);
